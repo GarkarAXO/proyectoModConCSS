@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.configurator {
+    background-color: #98FB98; /* Color de fondo verde claro */
+    padding: 20px;
+}

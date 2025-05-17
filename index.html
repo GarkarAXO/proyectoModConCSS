@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Configurador de Página</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <center>
+            <h1>ITGAM</h1>
+            <h2>Diseño De Aplicaciones Web</h2>
+            <h3>Nombre del alumno: Garcia Jimenez Erick Axel</h3>
+        </center>
+        <h1>Configurador de Página</h1>
+    </header>
+
+    <div class="configurator">
+        <label for="element">Seleccionar elemento:</label>
+        <select id="element">
+            <option value="p">Párrafo</option>
+            <option value="h1">Encabezado 1</option>
+            <option value="h2">Encabezado 2</option>
+            <option value="h3">Encabezado 3</option>
+            <option value="h4">Encabezado 4</option>
+            <option value="strong">Enfasis</option>
+            </select>
+
+        <label for="color">Color:</label>
+        <input type="color" id="color">
+
+        <label for="font">Fuente:</label>
+        <select id="font">
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Georgia">Georgia</option>
+        </select>
+        <label for="size">Tamaño:</label>
+        <input type="number" id="size" min="10" max="72">
+
+        <button onclick="applyStyles()">Aplicar</button>
+    </div>
+    <section class="configurator">
+        </section>
+
+    <section class="preview">
+        <article>
+            <h3>Tesla: El Futuro de la Movilidad Eléctrica</h3>
+            <p><strong>Tesla</strong> es una empresa estadounidense pionera en la fabricación de vehículos eléctricos, baterías de iones de litio y sistemas de energía solar. Fundada en 2003 con el objetivo de acelerar la transición del mundo hacia energías sostenibles, Tesla ha revolucionado la industria automotriz con sus innovadores diseños y tecnologías.</p>
+        <section>
+            <h4>¿Qué hace único a Tesla?</h4>
+            <ul>
+                <li><strong>Vehículos eléctricos de alto rendimiento:**</strong> Tesla fabrica automóviles eléctricos con una aceleración y autonomía impresionantes, desafiando los conceptos tradicionales de los vehículos eléctricos.</li>
+                <li><strong>Baterías avanzadas:**</strong> La compañía desarrolla baterías de iones de litio de alta densidad energética, lo que permite a sus vehículos recorrer grandes distancias con una sola carga.</li>
+                <li><strong>Tecnología de conducción autónoma:**</strong> Tesla está a la vanguardia en el desarrollo de sistemas de conducción autónoma, con el objetivo de crear vehículos completamente autónomos.</li>
+                <li><strong>Red de Supercargadores:**</strong> Tesla ha construido una extensa red de estaciones de carga rápida, facilitando los viajes largos en vehículos eléctricos.</li>
+                <li><strong>Energía solar:**</strong> Además de los automóviles, Tesla ofrece soluciones de energía solar para hogares y negocios, promoviendo la generación de energía limpia.</li>
+            </ul>
+        </section>
+    </section>
+
+    <section class="preview">
+        <article>    
+            <h3>Modelos populares de Tesla</h3>
+            <ul>
+                <li>Model S</li>
+                <li>Model 3</li>
+                <li>Model X</li>
+                <li>Model Y</li>
+            </ul>
+
+        </article>
+    </section>
+
+    <footer>
+        <center>
+            <p>
+                Numero de control: 201130220.
+            </p>
+        </center>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
